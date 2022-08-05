@@ -1,4 +1,6 @@
-Tic Tac Toe game controlled via Computer Vision
+**Tic Tac Toe game controlled via Computer Vision 
+created for Assemble workshop
 
-Install OpenCV and mediapipe
-Demo the game by runing run_game.py
+Get Started
+- Install OpenCV and mediapipe
+- Run run_game.py
