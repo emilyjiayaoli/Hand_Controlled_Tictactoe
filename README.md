@@ -1,4 +1,4 @@
-**Tic Tac Toe game controlled via Computer Vision 
+**Tic Tac Toe game controlled via Computer Vision**
 created for Assemble workshop
 
 Get Started
