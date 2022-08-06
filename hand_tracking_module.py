@@ -24,6 +24,7 @@ class HandTracking():
         results = self.hands.process(img_rgb) #get results
         #print('results.multi_hand_landmarks', results.multi_hand_landmarks)
         
+        # Restructuring the keypoints for easy access
         keypoints_list = [] #(21, 3)
         if results.multi_hand_landmarks:
             for handlm in results.multi_hand_landmarks:
@@ -42,6 +43,7 @@ class HandTracking():
 
         #ex: keypoints_list is [[0, 155, 717], [1, 249, 699], [2, 335, 651], [3, 381, 586], [4, 408, 519], [5, 288, 532], [6, 349, 438], [7, 391, 379], [8, 429, 334], [9, 222, 506], [10, 262, 377], [11, 297, 295], [12, 326, 232], [13, 153, 509], [14, 173, 390], [15, 195, 307], [16, 215, 241], [17, 86, 535], [18, 62, 443], [19, 47, 382], [20, 33, 326]]
 
+    # Returns an x, y pixel value for keypoints. The origin (0,0) is on the upper left corner
     def get_finger_kpts(self, keypoints_list, id):
         if keypoints_list == []:
             return None, None

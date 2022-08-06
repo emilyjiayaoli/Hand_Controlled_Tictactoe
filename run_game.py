@@ -1,5 +1,4 @@
 from operator import index
-from pickletools import uint8
 import cv2
 import mediapipe as mp
 import time
