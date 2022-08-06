@@ -148,8 +148,6 @@ def drawChecker(board):
             if c == None:
                 return False
     return True
-
-#def quitChecker():
     
 def keyPressed(key: str, finger_x, finger_y):
     if finger_x == None or finger_y == None:
@@ -158,12 +156,6 @@ def keyPressed(key: str, finger_x, finger_y):
     rect_pt2 = BUTTON_SETTINGS[key][1]
     if rect_pt1[0] < finger_x < rect_pt2[0] and rect_pt1[1] < finger_y < rect_pt2[1]:
         return True
-
-def restartGame():
-    board = [[None, None, None],
-            [None, None, None],
-            [None, None, None]]
-    return board, 
 
 def setDefault():
     board = [[None, None, None],
@@ -181,7 +173,6 @@ def setDefault():
     static_underlay = cv2.imread("static_overlay.png")
 
     return board, hand, cTime, pTime, winner_status, winner, player1, static_overlay, static_underlay
-
 
 def main():
     cap = cv2.VideoCapture(0)
