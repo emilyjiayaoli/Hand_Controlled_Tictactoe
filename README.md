@@ -1,4 +1,5 @@
-# Tic Tac Toe game controlled via Computer Vision
+# HoloTicTacToe 
+HolorTicTacToe is a tic tac toe game controlled via the movement of a human hand using computer vision. The hand-tracking is powered by Mediapipe.
 created for Assemble workshop
 
 # Get Started
