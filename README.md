@@ -1,6 +1,6 @@
 # HoloTicTacToe 
 HolorTicTacToe is a tic tac toe game controlled via the movement of a human hand using computer vision. The hand-tracking is powered by Mediapipe.
-created for Assemble workshop
+Originally ceated for Assemble workshop
 
 # Get Started
 - Install OpenCV and mediapipe via pip
