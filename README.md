@@ -7,7 +7,7 @@ created for Assemble workshop
 
 # Demo
 Hover
-![demo1] (/hand-controlled-tictactoe/images/demo1.png)
+![demo1] (hand-controlled-tictactoe/images/demo1.png)
 Select
-![demo2] (/hand-controlled-tictactoe/images/demo2.png)
+![demo2] (hand-controlled-tictactoe/images/demo2.png)
 
