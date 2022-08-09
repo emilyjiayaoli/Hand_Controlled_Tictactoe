@@ -9,5 +9,5 @@ created for Assemble workshop
 Hover
 ![demo1](https://github.com/emilyjiayaoli/hand-controlled-tictactoe/blob/master/images/demo1.png)
 Select
-![demo2](hand-controlled-tictactoe/images/demo2.png)
+![demo2](https://github.com/emilyjiayaoli/hand-controlled-tictactoe/blob/master/images/demo2.png)
 
