@@ -7,7 +7,7 @@ created for Assemble workshop
 
 # Demo
 Hover
-[demo1] (images/demo1.png)
+![demo1] (images/demo1.png)
 Select
-[demo2] (images/demo2.png)
+![demo2] (images/demo2.png)
 
