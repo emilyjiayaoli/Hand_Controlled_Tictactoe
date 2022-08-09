@@ -7,7 +7,7 @@ created for Assemble workshop
 
 # Demo
 Hover
-![demo1] (main/images/demo1.png)
+![demo1] (~/desktop/hand-tracking-assemble/hand-controlled-tictactoe-github/images/demo1.png)
 Select
-![demo2] (main/images/demo2.png)
+![demo2] (~/desktop/hand-tracking-assemble/hand-controlled-tictactoe-github/images/demo2.png)
 
